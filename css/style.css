@@ -92,6 +92,9 @@ a{
 .contenitore-foto{
     height: 700px;
     max-width: 100%;
+    display: flex;
+    align-items: center;
+
     
 }
 .contenitore {
