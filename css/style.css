@@ -187,6 +187,19 @@ a{
 
 /*format 4 - 1 colonna + sfondo*/
 
+.img-grande{
+    width: 100%;
+}
+
+.testo-centrale{
+    text-align: center;
+}
+
+.bg-stelline{
+    background-image: url(../img/stars.svg);
+    background-size: 40%;
+}
+
 .contenitore-grande{
     height: 600px;
     margin: 0 auto;
@@ -198,6 +211,10 @@ a{
     width: 60%;
     margin: auto;
     background-color: green;
+}
+
+.bg-viola{
+    background-color: rgba(142, 161, 225, 1);
 }
 
 /* footer */
