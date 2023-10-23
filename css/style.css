@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+header{
+    height: 50px;
+    background-color: azure;
+    width: 100%;
+}
+
+
+.border{
+    border: 1px dotted black;
+}
+.riga-header{
+    max-width: 1200px;
+    margin: 8px auto;
+    height: 35px;
+    background-color: rgb(255, 208, 1);
+    display: flex;
+    
+    
+}
+
+.colonne-header{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+
+}
+.piccole-25{
+    width: 25%;
+    
+}
+
+.grande-50{
+    justify-content: center;
+    width: 50%;
+    
+}
+
+.scritta-destra{
+    justify-content: right;
+}
+
+
+/* main */
+
+/* contenitore blu con dentro un contenitore rosa  */
+
+.contenitore {
+    height: 300px;
+    width: 100%;
+}
+.blu-main{
+    background-color: blue;
+}
+
+.riga{
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+}
+
+.colonna{
+    
+    height: 250px;
+    margin: auto;
+
+}
+
+.rosa-main{
+    width: 80%;
+    margin: auto;
+    background-color: palevioletred;
+}
+
+
+/*  Format 1 - 2 colonne*/
+
+
+.riga-larghezza-minore{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    margin:auto;
+
+}
+
+.celeste{  
+    background-color: rgb(5, 107, 224);
+    width: 70%;
+}
+
+.rosa{
+    background-color: rgba(255, 213, 242, 0.863);
+    width: 30%;
+}
+
+/*format 2 - 2 colonne + sfondo */
+.sfondo-grigio{
+    background-color: rgba(185, 185, 185, 0.603);
+}
+
+/*format 4 - 1 colonna + sfondo*/
+
+.contenitore-grande{
+    height: 600px;
+
+}
+
+.colonna-grande{
+    height: 500px;
+    width: 60%;
+    margin: auto;
+    background-color: green;
+}
+
+/* footer */
+/* sfondo nero + 5 colonne  */
+.sfondo-nero{
+    background-color: black;
+}
+
+.colonna-grande-footer{
+    width: calc(100% / 4);
+    background-color: red;
+}
+
+.colonna-footer{
+    width: calc(75% / 4);
+    background-color: rgb(7, 226, 226);
+}
+
+.border-bianco{
+    border: 1px dotted white;
+}
+
+#margin-bottom-grigio{
+    border-bottom: solid 3px grey;
+}
+
+.margin-top{
+    margin-top: 10px;
+}
+
+/* rettangolo con due div agli estremi */
+
+.contenitore-footer{
+    height: 50px;
+    padding-top: 15px;
+}
+
+.sfondo-colore-acqua{
+    background-color: aquamarine;
+    
+}
+
+.sfondo-rosa{
+    background-color: rgba(255, 213, 242, 0.863);
+    padding: 3px;
+}
+
+.spazio-between{
+    align-items: center;
+    justify-content: space-between;
+}
