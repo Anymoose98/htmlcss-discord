@@ -190,8 +190,8 @@ margin: auto;
 }
 
 .contenitore-grande{
-    margin: 0 auto;
-
+     margin: 0 auto;
+     padding: 30px;
 }
 
 .colonna-grande{
@@ -205,6 +205,10 @@ margin: auto;
 
 /* footer */
 /* sfondo nero + 5 colonne  */
+
+.padding-bottom-25{
+    padding-bottom: 25px;
+}
 
 .titolo-footer{
     font-size: 25px;
@@ -220,6 +224,7 @@ margin: auto;
 
 .sfondo-nero{
     background-color: black;
+    padding-bottom: 10px;
 }
 
 .colonna-grande-footer{
