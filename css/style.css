@@ -219,6 +219,19 @@ a{
 
 /* footer */
 /* sfondo nero + 5 colonne  */
+
+.titolo-footer{
+    font-size: 25px;
+}
+
+.colore-bianco{
+    color: white;
+}
+
+.colore-viola{
+    color: rgba(142, 161, 225, 1);
+}
+
 .sfondo-nero{
     background-color: black;
 }
@@ -248,7 +261,7 @@ a{
 /* rettangolo con due div agli estremi */
 
 .contenitore-footer{
-    height: 50px;
+    padding-bottom: 40px;
     padding-top: 15px;
 }
 
