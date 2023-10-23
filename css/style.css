@@ -55,6 +55,7 @@ header{
 .contenitore {
     height: 300px;
     width: 100%;
+    margin: 0 auto;
 }
 .blu-main{
     background-color: blue;
@@ -64,6 +65,7 @@ header{
     max-width: 1200px;
     height: 100%;
     display: flex;
+    margin: 0 auto;
 }
 
 .colonna{
@@ -87,7 +89,7 @@ header{
     width: 60%;
     height: 100%;
     display: flex;
-    margin:auto;
+    margin: 0 auto;
 
 }
 
@@ -110,6 +112,7 @@ header{
 
 .contenitore-grande{
     height: 600px;
+    margin: 0 auto;
 
 }
 
