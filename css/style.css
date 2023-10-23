@@ -4,11 +4,16 @@
     margin: 0;
 }
 
+
 /* header */
 header{
     height: 50px;
-    background-color: azure;
+    background-color:rgb(49,97,224);
     width: 100%;
+}
+
+.contenitore-header{
+    padding-top: 5px;
 }
 
 
@@ -17,9 +22,8 @@ header{
 }
 .riga-header{
     max-width: 1200px;
-    margin: 8px auto;
+    margin: auto;
     height: 35px;
-    background-color: rgb(255, 208, 1);
     display: flex;
     
     
@@ -45,6 +49,29 @@ header{
 
 .scritta-destra{
     justify-content: right;
+}
+
+/* bottone */
+.bottone{
+    border-radius: 15px;
+    padding: 6px;
+    background-color: white;
+    border: 0px;
+}
+
+/* lista ul */
+ul {
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin:10px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 
@@ -172,3 +199,4 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+
