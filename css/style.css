@@ -119,6 +119,7 @@ a{
 .colonna{
     height: 250px;
     margin: auto;
+    
 }
 
 .titolo-main{
@@ -149,6 +150,13 @@ a{
 
 /*  Format 1 - 2 colonne*/
 
+.titolo-format{
+    font-size: 30px;
+}
+
+.p-format{
+    margin-top: 30px;
+}
 
 .riga-larghezza-minore{
     width: 60%;
@@ -160,6 +168,10 @@ a{
 
 .celeste{  
     background-color: rgb(5, 107, 224);
+    width: 70%;
+}
+
+#img-item1{
     width: 70%;
 }
 
