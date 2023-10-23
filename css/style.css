@@ -98,9 +98,8 @@ a{
     
 }
 .contenitore {
-
     width: 100%;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 .sfondo-alto{
     background-image: url(../img/jumbo.png);
@@ -146,11 +145,12 @@ margin: auto;
 /*  Format 1 - 2 colonne*/
 
 .titolo-format{
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .p-format{
-    margin-top: 30px;
+    margin-top: 20px;
+    font-size: 23px;
 }
 
 .riga-larghezza-minore{
@@ -164,9 +164,6 @@ margin: auto;
     width: 70%;
 }
 
-.img-format{
-    width: 50%;
-}
 
 .rosa{
     width: 30%;
